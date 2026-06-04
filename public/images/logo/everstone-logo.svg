@@ -1,0 +1,13 @@
+﻿<svg width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Everstone Outdoor Living</title>
+  <desc id="desc">Luxury landscaping logo mark with stone and leaf icon.</desc>
+  <rect width="360" height="96" rx="18" fill="none"/>
+  <g transform="translate(12 11)">
+    <path d="M35 5L63 22V54L35 71L7 54V22L35 5Z" stroke="#D6B46A" stroke-width="3"/>
+    <path d="M22 50C34 50 45 40 48 25C34 26 22 37 22 50Z" fill="#D6B46A"/>
+    <path d="M25 52C35 50 43 42 47 31" stroke="#163A29" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 57H53" stroke="#F8F4EA" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="94" y="39" fill="#F8F4EA" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="1.5">EVERSTONE</text>
+  <text x="96" y="62" fill="#D6B46A" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="3.2">OUTDOOR LIVING</text>
+</svg>
