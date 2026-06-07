@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -11,7 +12,7 @@ import SoftscapingCTA from "@/components/softscaping/SoftscapingCTA";
 import SoftscapingForm from "@/components/softscaping/SoftscapingForm";
 
 export const metadata = {
-  title: "Softscaping & Garden Bed Installation Kitchener-Waterloo | Everstone Outdoor Living",
+  title: `Softscaping & Garden Bed Installation Kitchener-Waterloo | ${site.name}`,
   description:
     "Premium softscaping, garden bed installation, mulch, river rock, shrubs, privacy hedges, and planting services across Kitchener, Waterloo, and Cambridge.",
 };

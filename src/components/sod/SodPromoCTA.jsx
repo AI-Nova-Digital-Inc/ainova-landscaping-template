@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import { FadeUp } from "@/components/FadeUp";
 import { Phone } from "lucide-react";
 
@@ -22,8 +23,8 @@ export default function SodPromoCTA() {
             <a href="#estimate" className="rounded-full bg-gold px-8 py-4 font-bold text-charcoal shadow-luxury transition hover:-translate-y-0.5 hover:bg-yellow-400">
               Book Estimate
             </a>
-            <a href="tel:15195550148" className="flex items-center gap-2 rounded-full border border-white/30 px-8 py-4 font-bold text-warm-white transition hover:bg-white/10">
-              <Phone size={16} /> Call Now +1-519-555-0148
+            <a href={`tel:${site.phone}`} className="flex items-center gap-2 rounded-full border border-white/30 px-8 py-4 font-bold text-warm-white transition hover:bg-white/10">
+              <Phone size={16} /> Call Now {site.phoneDisplay}
             </a>
           </div>
         </div>

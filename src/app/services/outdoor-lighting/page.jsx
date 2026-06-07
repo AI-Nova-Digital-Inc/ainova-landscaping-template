@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -10,7 +11,7 @@ import LightingCTA from "@/components/outdoor-lighting/LightingCTA";
 import LightingForm from "@/components/outdoor-lighting/LightingForm";
 
 export const metadata = {
-  title: "Outdoor Lighting Installation Kitchener-Waterloo | Everstone Outdoor Living",
+  title: `Outdoor Lighting Installation Kitchener-Waterloo | ${site.name}`,
   description: "Professional outdoor lighting design and installation — path lights, uplights, patio lighting, and landscape lighting across Kitchener, Waterloo, and Cambridge.",
 };
 

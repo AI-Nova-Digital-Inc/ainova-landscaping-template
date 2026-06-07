@@ -1,5 +1,6 @@
-"use client";
+﻿"use client";
 
+import { site } from "@/config/site";
 import { motion } from "framer-motion";
 import Image from "next/image";
 

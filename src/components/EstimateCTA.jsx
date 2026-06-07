@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import { FadeUp } from "@/components/FadeUp";
 import { CheckCircle2, Phone } from "lucide-react";
 
@@ -26,8 +27,8 @@ export default function EstimateCTA() {
             <a href="#contact" className="w-full rounded-full bg-warm-white px-8 py-4 font-black text-evergreen-900 shadow-luxury transition hover:-translate-y-0.5 hover:bg-white sm:w-auto">
               Book Your Free Estimate
             </a>
-            <a href="tel:15195550148" className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/30 bg-white/8 px-8 py-4 font-semibold text-white transition hover:bg-white/15 sm:w-auto">
-              <Phone size={17} /> Call Now +1-519-555-0148
+            <a href={`tel:${site.phone}`} className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/30 bg-white/8 px-8 py-4 font-semibold text-white transition hover:bg-white/15 sm:w-auto">
+              <Phone size={17} /> Call Now {site.phoneDisplay}
             </a>
           </div>
         </FadeUp>

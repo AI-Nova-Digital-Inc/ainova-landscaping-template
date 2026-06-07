@@ -1,5 +1,6 @@
-"use client";
+﻿"use client";
 
+import { site } from "@/config/site";
 import { FadeUp } from "@/components/FadeUp";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";

@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import { FadeUp } from "@/components/FadeUp";
 import { CheckCircle } from "lucide-react";
 import Image from "next/image";

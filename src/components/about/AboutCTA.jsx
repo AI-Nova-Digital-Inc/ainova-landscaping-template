@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import { FadeUp } from "@/components/FadeUp";
 import { Phone } from "lucide-react";
 
@@ -22,11 +23,11 @@ export default function AboutCTA() {
               Book Your Estimate
             </a>
             <a
-              href="tel:15195550148"
+              href={`tel:${site.phone}`}
               className="flex items-center gap-2 rounded-full border-2 border-charcoal/20 px-8 py-4 font-semibold text-charcoal transition hover:border-evergreen-700 hover:text-evergreen-700"
             >
               <Phone size={16} />
-              Call Now +1-519-555-0148
+              Call Now {site.phoneDisplay}
             </a>
           </div>
         </div>

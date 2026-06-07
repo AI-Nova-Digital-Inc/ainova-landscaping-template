@@ -1,5 +1,6 @@
-"use client";
+﻿"use client";
 
+import { site } from "@/config/site";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Menu, X } from "lucide-react";
 import Image from "next/image";

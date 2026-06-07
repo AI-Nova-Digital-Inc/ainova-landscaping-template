@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -10,7 +11,7 @@ import StaircaseCTA from "@/components/outdoor-staircases/StaircaseCTA";
 import StaircaseForm from "@/components/outdoor-staircases/StaircaseForm";
 
 export const metadata = {
-  title: "Outdoor Staircase Installation Kitchener-Waterloo | Everstone Outdoor Living",
+  title: `Outdoor Staircase Installation Kitchener-Waterloo | ${site.name}`,
   description: "Natural stone steps, interlock staircase installation, grade transitions, and outdoor staircase design across Kitchener, Waterloo, and Cambridge.",
 };
 

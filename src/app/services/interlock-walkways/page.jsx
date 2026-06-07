@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -10,7 +11,7 @@ import WalkwayCTA from "@/components/interlock-walkways/WalkwayCTA";
 import WalkwayForm from "@/components/interlock-walkways/WalkwayForm";
 
 export const metadata = {
-  title: "Interlock Walkway Installation Kitchener-Waterloo | Everstone Outdoor Living",
+  title: `Interlock Walkway Installation Kitchener-Waterloo | ${site.name}`,
   description: "Premium interlock walkways, garden paths, and paver walkway installation across Kitchener, Waterloo, and Cambridge.",
 };
 

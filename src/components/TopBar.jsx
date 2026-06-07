@@ -1,5 +1,6 @@
-"use client";
+﻿"use client";
 
+import { site } from "@/config/site";
 import { AnimatePresence, motion } from "framer-motion";
 import { Clock, Mail, Phone } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -26,8 +27,8 @@ export default function TopBar() {
             <p className="font-semibold">Serving Kitchener, Waterloo, Cambridge &amp; Surrounding Areas</p>
             <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-warm-white/90">
               <span className="inline-flex items-center gap-1.5"><Clock size={13} /> Mon - Sat: 7AM - 7PM</span>
-              <a className="inline-flex items-center gap-1.5 transition hover:text-gold" href="tel:15195550148"><Phone size={13} /> +1-519-555-0148</a>
-              <a className="inline-flex items-center gap-1.5 transition hover:text-gold" href="mailto:hello@everstoneoutdoor.ca"><Mail size={13} /> hello@everstoneoutdoor.ca</a>
+              <a className="inline-flex items-center gap-1.5 transition hover:text-gold" href={`tel:${site.phone}`}><Phone size={13} /> {site.phoneDisplay}</a>
+              <a className="inline-flex items-center gap-1.5 transition hover:text-gold" href="mailto:{site.email}"><Mail size={13} /> {site.email}</a>
             </div>
           </div>
         </motion.div>

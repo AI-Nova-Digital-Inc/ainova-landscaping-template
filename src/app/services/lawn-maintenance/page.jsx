@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -10,7 +11,7 @@ import LawnCTA from "@/components/lawn-maintenance/LawnCTA";
 import LawnForm from "@/components/lawn-maintenance/LawnForm";
 
 export const metadata = {
-  title: "Lawn Maintenance Kitchener-Waterloo | Everstone Outdoor Living",
+  title: `Lawn Maintenance Kitchener-Waterloo | ${site.name}`,
   description: "Professional lawn mowing, edging, trimming, seasonal cleanup, and lawn maintenance programs across Kitchener, Waterloo, and Cambridge.",
 };
 

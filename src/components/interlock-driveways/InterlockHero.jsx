@@ -1,5 +1,6 @@
-"use client";
+﻿"use client";
 
+import { site } from "@/config/site";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -27,8 +28,8 @@ export default function InterlockHero() {
           <a href="#estimate" className="rounded-full bg-evergreen-700 px-8 py-4 font-bold text-white shadow-luxury transition hover:-translate-y-0.5 hover:bg-evergreen-600">
             Get A Free Driveway Quote
           </a>
-          <a href="tel:+15195550148" className="flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-8 py-4 font-bold text-white backdrop-blur-sm transition hover:bg-white/18">
-            Call Now +1-519-555-0148
+          <a href={`tel:${site.phone}`} className="flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-8 py-4 font-bold text-white backdrop-blur-sm transition hover:bg-white/18">
+            Call Now {site.phoneDisplay}
           </a>
         </div>
       </motion.div>

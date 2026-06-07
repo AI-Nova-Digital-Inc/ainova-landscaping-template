@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -10,9 +11,9 @@ import FounderSection from "@/components/about/FounderSection";
 import WhyChooseSection from "@/components/about/WhyChooseSection";
 
 export const metadata = {
-  title: "About Us | Everstone Outdoor Living – Landscaping Kitchener-Waterloo",
+  title: `About Us | ${site.name} – Landscaping Kitchener-Waterloo`,
   description:
-    "Learn about Everstone Outdoor Living – a premium landscaping company serving Kitchener, Waterloo, Cambridge & surrounding areas. Interlock patios, retaining walls, sod installation, and more.",
+    "Learn about ${site.name} – a premium landscaping company serving Kitchener, Waterloo, Cambridge & surrounding areas. Interlock patios, retaining walls, sod installation, and more.",
 };
 
 export default function AboutPage() {

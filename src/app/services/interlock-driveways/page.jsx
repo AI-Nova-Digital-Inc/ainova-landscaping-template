@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -11,7 +12,7 @@ import InterlockCTA from "@/components/interlock-driveways/InterlockCTA";
 import InterlockForm from "@/components/interlock-driveways/InterlockForm";
 
 export const metadata = {
-  title: "Interlock Driveway Installation Kitchener-Waterloo | Everstone Outdoor Living",
+  title: `Interlock Driveway Installation Kitchener-Waterloo | ${site.name}`,
   description:
     "Premium interlock driveway installation, paver driveways, base preparation, polymeric sand, sealing, and custom driveway design across Kitchener, Waterloo, and Cambridge.",
 };

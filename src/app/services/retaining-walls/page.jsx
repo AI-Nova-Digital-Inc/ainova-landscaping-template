@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -11,7 +12,7 @@ import RetainingCTA from "@/components/retaining-walls/RetainingCTA";
 import RetainingForm from "@/components/retaining-walls/RetainingForm";
 
 export const metadata = {
-  title: "Retaining Wall Construction Kitchener-Waterloo | Everstone Outdoor Living",
+  title: `Retaining Wall Construction Kitchener-Waterloo | ${site.name}`,
   description:
     "Premium retaining wall construction, armor stone walls, interlock block walls, drainage, excavation, and landscape wall installation across Kitchener, Waterloo, and Cambridge.",
 };

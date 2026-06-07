@@ -1,5 +1,6 @@
-"use client";
+﻿"use client";
 
+import { site } from "@/config/site";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Phone } from "lucide-react";
@@ -60,10 +61,10 @@ export default function RetainingHero() {
             Get A Free Retaining Wall Quote
           </a>
           <a
-            href="tel:15195550148"
+            href={`tel:${site.phone}`}
             className="flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-8 py-4 font-bold text-white backdrop-blur-sm transition hover:bg-white/18"
           >
-            <Phone size={16} /> Call Now +1-519-555-0148
+            <Phone size={16} /> Call Now {site.phoneDisplay}
           </a>
         </div>
       </motion.div>

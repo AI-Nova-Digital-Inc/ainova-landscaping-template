@@ -1,3 +1,4 @@
+﻿import { site } from "@/config/site";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -14,9 +15,9 @@ import SodTestimonials from "@/components/sod/SodTestimonials";
 import SodTrustSection from "@/components/sod/SodTrustSection";
 
 export const metadata = {
-  title: "Sod Installation Kitchener-Waterloo | Everstone Outdoor Living",
+  title: `Sod Installation Kitchener-Waterloo | ${site.name}`,
   description:
-    "Premium sod installation services in Kitchener, Waterloo, Cambridge & surrounding areas. Kentucky Bluegrass, professional grading, and expert lawn transformations by Everstone Outdoor Living.",
+    "Premium sod installation services in Kitchener, Waterloo, Cambridge & surrounding areas. Kentucky Bluegrass, professional grading, and expert lawn transformations by ${site.name}.",
 };
 
 export default function SodInstallationPage() {
