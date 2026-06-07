@@ -16,7 +16,7 @@ const links = [
       { label: "Sod Installation", href: "/sod-installation" },
       { label: "Softscaping & Gardens", href: "/services/softscaping-services" },
       { label: "Retaining Walls", href: "/services/retaining-walls" },
-      { label: "Interlock Driveways", href: "/#services" },
+      { label: "Interlock Driveways", href: "/services/interlock-driveways" },
       { label: "Interlock Patios", href: "/#services" },
       { label: "Interlock Walkways", href: "/#services" },
       { label: "Lawn Maintenance", href: "/#services" },

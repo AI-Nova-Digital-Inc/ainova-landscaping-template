@@ -7,7 +7,7 @@ const services = [
   { title: "Sod Installation", desc: "Fresh sod, grading, and soil prep for instant curb appeal and a lush lawn.", img: "/images/services/service-sod-installation.png", href: "/sod-installation" },
   { title: "Softscaping & Gardens", desc: "Planting, mulch, river rock, garden edging, and low-maintenance landscape upgrades.", img: "/images/services/service-softscaping-gardens.png", href: "/services/softscaping-services" },
   { title: "Retaining Walls", desc: "Structural and decorative walls designed for drainage, grade, and long-term durability.", img: "/images/services/service-retaining-walls.png", href: "/services/retaining-walls" },
-  { title: "Interlock Driveways", desc: "Premium paver driveways built to handle Ontario freeze-thaw conditions beautifully.", img: "/images/services/service-interlock-driveways.png" },
+  { title: "Interlock Driveways", desc: "Premium paver driveways built to handle Ontario freeze-thaw conditions beautifully.", img: "/images/services/service-interlock-driveways.png", href: "/services/interlock-driveways" },
   { title: "Interlock Walkways", desc: "Clean walkways and garden paths with crisp paver detailing and premium finish.", img: "/images/services/service-interlock-walkways.png" },
   { title: "Outdoor Staircases", desc: "Stone steps and grade transitions that make sloped yards safer and more elegant.", img: "/images/services/service-outdoor-staircases.png" },
   { title: "Interlock Patios", desc: "Backyard patios and outdoor living areas planned for comfort and long-term use.", img: "/images/services/service-interlock-patios.png" },
