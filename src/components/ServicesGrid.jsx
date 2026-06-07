@@ -8,11 +8,11 @@ const services = [
   { title: "Softscaping & Gardens", desc: "Planting, mulch, river rock, garden edging, and low-maintenance landscape upgrades.", img: "/images/services/service-softscaping-gardens.png", href: "/services/softscaping-services" },
   { title: "Retaining Walls", desc: "Structural and decorative walls designed for drainage, grade, and long-term durability.", img: "/images/services/service-retaining-walls.png", href: "/services/retaining-walls" },
   { title: "Interlock Driveways", desc: "Premium paver driveways built to handle Ontario freeze-thaw conditions beautifully.", img: "/images/services/service-interlock-driveways.png", href: "/services/interlock-driveways" },
-  { title: "Interlock Walkways", desc: "Clean walkways and garden paths with crisp paver detailing and premium finish.", img: "/images/services/service-interlock-walkways.png" },
-  { title: "Outdoor Staircases", desc: "Stone steps and grade transitions that make sloped yards safer and more elegant.", img: "/images/services/service-outdoor-staircases.png" },
-  { title: "Interlock Patios", desc: "Backyard patios and outdoor living areas planned for comfort and long-term use.", img: "/images/services/service-interlock-patios.png" },
-  { title: "Outdoor Lighting", desc: "Architectural lighting that extends your outdoor living space into the evening hours.", img: "/images/services/service-outdoor-lighting.png" },
-  { title: "Lawn Maintenance", desc: "Seasonal lawn care, edging, cleanup, and upkeep for a sharp exterior all year.", img: "/images/services/service-lawn-maintenance.png" },
+  { title: "Interlock Walkways", desc: "Clean walkways and garden paths with crisp paver detailing and premium finish.", img: "/images/services/service-interlock-walkways.png", href: "/services/interlock-walkways" },
+  { title: "Outdoor Staircases", desc: "Stone steps and grade transitions that make sloped yards safer and more elegant.", img: "/images/services/service-outdoor-staircases.png", href: "/services/outdoor-staircases" },
+  { title: "Interlock Patios", desc: "Backyard patios and outdoor living areas planned for comfort and long-term use.", img: "/images/services/service-interlock-patios.png", href: "/services/interlock-patios" },
+  { title: "Outdoor Lighting", desc: "Architectural lighting that extends your outdoor living space into the evening hours.", img: "/images/services/service-outdoor-lighting.png", href: "/services/outdoor-lighting" },
+  { title: "Lawn Maintenance", desc: "Seasonal lawn care, edging, cleanup, and upkeep for a sharp exterior all year.", img: "/images/services/service-lawn-maintenance.png", href: "/services/lawn-maintenance" },
 ];
 
 export default function ServicesGrid() {
