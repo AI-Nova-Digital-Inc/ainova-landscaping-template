@@ -12,7 +12,7 @@ export default function Hero() {
       <motion.div initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }} className="mx-auto flex max-w-6xl flex-col items-center">
         <p className="mb-6 text-base font-black uppercase tracking-[0.32em] text-gold drop-shadow-lg sm:text-lg" style={{textShadow:"0 2px 12px rgba(0,0,0,0.8)"}}>Luxury Landscape Design &amp; Build</p>
         <h1 className="text-balance font-serif text-2xl font-black leading-[1.08] tracking-tight text-warm-white drop-shadow-2xl sm:text-3xl lg:text-4xl xl:text-5xl">
-          Premium Landscaping &amp; Outdoor Living in Kitchener-Waterloo
+          Outdoor Spaces Built to Last,<br className="hidden sm:block" /> Designed to Impress
         </h1>
         <p className="mt-7 max-w-4xl text-balance text-lg font-medium leading-8 text-warm-white/86 sm:text-xl lg:text-2xl">
           Custom interlock patios, retaining walls, sod installation, garden upgrades, and elegant outdoor spaces built for lasting curb appeal.
