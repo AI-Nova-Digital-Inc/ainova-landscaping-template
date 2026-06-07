@@ -5,6 +5,7 @@ import PatioHero from "@/components/interlock-patios/PatioHero";
 import PatioWhy from "@/components/interlock-patios/PatioWhy";
 import PatioGallery from "@/components/interlock-patios/PatioGallery";
 import PatioFAQ from "@/components/interlock-patios/PatioFAQ";
+import PatioProcess from "@/components/interlock-patios/PatioProcess";
 import PatioCTA from "@/components/interlock-patios/PatioCTA";
 import PatioForm from "@/components/interlock-patios/PatioForm";
 
@@ -20,6 +21,7 @@ export default function InterlockPatiosPage() {
       <main>
         <PatioHero />
         <PatioWhy />
+        <PatioProcess />
         <PatioGallery />
         <PatioFAQ />
         <PatioCTA />

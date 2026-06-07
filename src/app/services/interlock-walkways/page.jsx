@@ -5,6 +5,7 @@ import WalkwayHero from "@/components/interlock-walkways/WalkwayHero";
 import WalkwayWhy from "@/components/interlock-walkways/WalkwayWhy";
 import WalkwayGallery from "@/components/interlock-walkways/WalkwayGallery";
 import WalkwayFAQ from "@/components/interlock-walkways/WalkwayFAQ";
+import WalkwayProcess from "@/components/interlock-walkways/WalkwayProcess";
 import WalkwayCTA from "@/components/interlock-walkways/WalkwayCTA";
 import WalkwayForm from "@/components/interlock-walkways/WalkwayForm";
 
@@ -20,6 +21,7 @@ export default function InterlockWalkwaysPage() {
       <main>
         <WalkwayHero />
         <WalkwayWhy />
+        <WalkwayProcess />
         <WalkwayGallery />
         <WalkwayFAQ />
         <WalkwayCTA />

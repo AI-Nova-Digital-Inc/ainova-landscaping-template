@@ -5,6 +5,7 @@ import LawnHero from "@/components/lawn-maintenance/LawnHero";
 import LawnWhy from "@/components/lawn-maintenance/LawnWhy";
 import LawnGallery from "@/components/lawn-maintenance/LawnGallery";
 import LawnFAQ from "@/components/lawn-maintenance/LawnFAQ";
+import LawnProcess from "@/components/lawn-maintenance/LawnProcess";
 import LawnCTA from "@/components/lawn-maintenance/LawnCTA";
 import LawnForm from "@/components/lawn-maintenance/LawnForm";
 
@@ -20,6 +21,7 @@ export default function LawnMaintenancePage() {
       <main>
         <LawnHero />
         <LawnWhy />
+        <LawnProcess />
         <LawnGallery />
         <LawnFAQ />
         <LawnCTA />
