@@ -1,0 +1,1 @@
+data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYwMCAxMDcxIiB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMDcxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==

@@ -1,0 +1,604 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Right On Landscaping Inc. | Landscaping Company in Kitchener & Waterloo</title>
+  <meta name="description" content="Premium landscaping, interlock, retaining wall, and sod installation services in Kitchener, Waterloo, and Cambridge." />
+  <link rel="icon" href="cdn-ilelejd.nitrocdn.com/jeRHSDwQxyvTWznVjeHYeVKefCczzBOA/assets/images/optimized/rev-9b477e7/rightonlandscapinginc.ca/wp-content/uploads/2025/04/logo.png" />
+  <style>
+    :root {
+      --green: #087735;
+      --green-dark: #035c29;
+      --gold: #ffd038;
+      --ink: #111713;
+      --white: #ffffff;
+      --line: rgba(255,255,255,.24);
+      --shadow: 0 18px 50px rgba(0,0,0,.28);
+      --hero-image: url("cdn-ilelejd.nitrocdn.com/jeRHSDwQxyvTWznVjeHYeVKefCczzBOA/assets/images/optimized/rev-9b477e7/rightonlandscapinginc.ca/wp-content/uploads/2025/01/hardscaping-2.jpg");
+      --logo: url("cdn-ilelejd.nitrocdn.com/jeRHSDwQxyvTWznVjeHYeVKefCczzBOA/assets/images/optimized/rev-9b477e7/rightonlandscapinginc.ca/wp-content/uploads/2025/05/right-on-landscaping-logo-transparent2.png");
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Poppins, Montserrat, "Segoe UI", sans-serif;
+      color: var(--white);
+      background: #f5f6f2;
+    }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea { font: inherit; }
+
+    .hero {
+      min-height: 900px;
+      position: relative;
+      overflow: hidden;
+      background-image: linear-gradient(90deg, rgba(0,0,0,.54), rgba(0,0,0,.38)), var(--hero-image);
+      background-size: cover;
+      background-position: center 55%;
+      isolation: isolate;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 46%, rgba(0,0,0,.06), rgba(0,0,0,.42) 72%);
+      z-index: -1;
+    }
+
+    .topbar {
+      height: 58px;
+      background: rgba(0, 112, 49, .88);
+      border-top: 1px solid rgba(255,255,255,.08);
+      backdrop-filter: blur(4px);
+    }
+    .topbar-inner {
+      width: min(1700px, calc(100% - 72px));
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      font-size: 22px;
+      letter-spacing: .01em;
+      white-space: nowrap;
+    }
+    .topbar-contact {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .mini-icon { color: var(--white); opacity: .95; font-size: .88em; }
+
+    .nav-wrap {
+      min-height: 116px;
+      border-top: 1px solid rgba(255,255,255,.05);
+      background: rgba(0,0,0,.22);
+    }
+    .nav-inner {
+      width: min(1700px, calc(100% - 72px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 330px 1fr 64px 330px;
+      align-items: start;
+      column-gap: 28px;
+      position: relative;
+    }
+    .brand {
+      display: block;
+      width: 230px;
+      height: 112px;
+      margin-top: 9px;
+      background: var(--logo) center/contain no-repeat;
+      filter: drop-shadow(0 3px 4px rgba(0,0,0,.32));
+    }
+    .menu {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 29px;
+      margin: 0;
+      padding: 51px 0 0;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .menu > li { position: relative; }
+    .menu > li > a,
+    .menu > li > button {
+      color: rgba(255,255,255,.92);
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+      padding: 0 0 19px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: 700;
+    }
+    .menu > li > a:hover,
+    .menu > li > button:hover,
+    .menu .active { color: var(--gold); }
+    .menu .active::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 56px;
+      height: 2px;
+      background: var(--gold);
+    }
+    .chev { font-size: 18px; transform: translateY(1px); }
+
+    .dropdown {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 50%;
+      min-width: 252px;
+      padding: 8px 0;
+      list-style: none;
+      margin: 0;
+      background: rgba(255,255,255,.98);
+      color: #17231b;
+      border-radius: 6px;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(0,0,0,.08);
+      opacity: 0;
+      visibility: hidden;
+      transform: translate(-50%, 10px);
+      pointer-events: none;
+      transition: opacity .16s ease, transform .16s ease, visibility .16s ease;
+      z-index: 10;
+    }
+    .has-dropdown:hover > .dropdown,
+    .has-dropdown:focus-within > .dropdown,
+    .has-dropdown.open > .dropdown {
+      opacity: 1;
+      visibility: visible;
+      transform: translate(-50%, 0);
+      pointer-events: auto;
+    }
+    .dropdown a {
+      display: block;
+      padding: 12px 18px;
+      font-size: 15px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: #17231b;
+      white-space: nowrap;
+    }
+    .dropdown a:hover { background: rgba(8,119,53,.1); color: var(--green); }
+
+    .social-stack {
+      padding-top: 17px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 22px;
+      font-weight: 800;
+      font-size: 39px;
+      line-height: 1;
+    }
+    .social-stack a { text-shadow: 0 3px 8px rgba(0,0,0,.35); }
+    .insta {
+      width: 29px;
+      height: 29px;
+      border: 3px solid currentColor;
+      border-radius: 8px;
+      position: relative;
+      display: block;
+    }
+    .insta::before {
+      content: "";
+      position: absolute;
+      width: 9px;
+      height: 9px;
+      border: 3px solid currentColor;
+      border-radius: 50%;
+      left: 7px;
+      top: 7px;
+    }
+    .insta::after {
+      content: "";
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: currentColor;
+      right: 5px;
+      top: 5px;
+    }
+    .header-cta {
+      justify-self: end;
+      margin-top: 18px;
+      width: 327px;
+      min-height: 84px;
+      padding: 21px 48px;
+      border-radius: 6px;
+      background: var(--green);
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: .94;
+      box-shadow: 0 16px 34px rgba(0,0,0,.16);
+    }
+    .header-cta:hover { background: #09843b; }
+
+    .hero-content {
+      width: min(1480px, calc(100% - 80px));
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 111px;
+    }
+    .eyebrow {
+      margin: 0 0 36px;
+      color: var(--gold);
+      font-size: clamp(34px, 2.35vw, 46px);
+      font-weight: 900;
+      letter-spacing: .01em;
+      text-shadow: 0 5px 5px rgba(0,0,0,.56);
+    }
+    h1 {
+      max-width: 1160px;
+      margin: 0 auto;
+      font-size: clamp(44px, 4.25vw, 63px);
+      line-height: 1.22;
+      font-weight: 900;
+      letter-spacing: .01em;
+      text-shadow: 0 5px 5px rgba(0,0,0,.55);
+    }
+    .subhead {
+      margin: 30px auto 0;
+      font-size: clamp(26px, 2.35vw, 40px);
+      line-height: 1.22;
+      font-weight: 900;
+      text-shadow: 0 4px 5px rgba(0,0,0,.48);
+    }
+    .proofs {
+      margin: 54px auto 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(260px, max-content));
+      justify-content: center;
+      column-gap: 88px;
+      row-gap: 15px;
+      text-align: left;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+    .proof {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      white-space: nowrap;
+    }
+    .check {
+      width: 24px;
+      height: 24px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--gold);
+      color: #152317;
+      font-size: 16px;
+      font-weight: 900;
+      flex: 0 0 auto;
+    }
+    .hero-actions {
+      margin: 64px auto 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(330px, 455px));
+      gap: 12px;
+      justify-content: center;
+    }
+    .btn {
+      min-height: 70px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 21px;
+      font-weight: 800;
+      border: 2px solid transparent;
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: #fff; color: #050505; }
+    .btn-outline { background: rgba(0,0,0,.12); color: #fff; border-color: rgba(255,255,255,.92); }
+    .btn-outline:hover { background: rgba(255,255,255,.1); }
+
+    .mobile-toggle { display: none; }
+
+    .below {
+      color: var(--ink);
+      background: #f5f6f2;
+    }
+    .section {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 74px 0;
+    }
+    .section h2 {
+      margin: 0 0 18px;
+      color: #152218;
+      font-size: clamp(34px, 3vw, 52px);
+      line-height: 1.05;
+    }
+    .section p {
+      max-width: 760px;
+      margin: 0;
+      color: #4f5d52;
+      font-size: 19px;
+      line-height: 1.65;
+    }
+    .services-grid {
+      margin-top: 36px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .service-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 26px;
+      box-shadow: 0 14px 34px rgba(15, 38, 24, .08);
+      border: 1px solid rgba(18, 45, 27, .08);
+    }
+    .service-card h3 { margin: 0 0 10px; font-size: 22px; color: #17231b; }
+    .service-card p { font-size: 16px; line-height: 1.55; }
+    .quote-band {
+      background: #0b6f35;
+      color: #fff;
+    }
+    .quote-band .section { display: grid; grid-template-columns: 1fr 420px; gap: 48px; align-items: start; }
+    .quote-band h2, .quote-band p { color: #fff; }
+    .quote-form {
+      background: #fff;
+      border-radius: 8px;
+      padding: 22px;
+      display: grid;
+      gap: 12px;
+      box-shadow: var(--shadow);
+    }
+    .quote-form input, .quote-form textarea {
+      width: 100%;
+      border: 1px solid #d7dfd9;
+      border-radius: 5px;
+      padding: 13px 14px;
+      color: #17231b;
+      background: #fff;
+    }
+    .quote-form textarea { min-height: 110px; resize: vertical; }
+    .quote-form button {
+      border: 0;
+      border-radius: 5px;
+      background: var(--green);
+      color: #fff;
+      min-height: 50px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    @media (max-width: 1200px) {
+      .topbar-inner, .nav-inner { width: min(100% - 36px, 1100px); }
+      .nav-inner { grid-template-columns: 260px 1fr 48px 260px; column-gap: 18px; }
+      .brand { width: 205px; }
+      .menu { gap: 18px; font-size: 17px; }
+      .header-cta { width: 260px; padding: 18px 28px; }
+    }
+    @media (max-width: 980px) {
+      .hero { min-height: 820px; }
+      .topbar { height: auto; }
+      .topbar-inner { min-height: 48px; font-size: 14px; flex-wrap: wrap; justify-content: center; padding: 9px 0; }
+      .nav-inner { min-height: 88px; grid-template-columns: 180px 1fr 58px; align-items: center; }
+      .brand { width: 170px; height: 80px; margin: 0; }
+      .mobile-toggle {
+        display: inline-flex;
+        justify-self: end;
+        width: 48px;
+        height: 48px;
+        border: 1px solid rgba(255,255,255,.35);
+        border-radius: 5px;
+        background: rgba(0,0,0,.15);
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        cursor: pointer;
+      }
+      .menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 92px;
+        padding: 14px;
+        background: rgba(8, 23, 13, .97);
+        border-radius: 8px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        z-index: 30;
+      }
+      .nav-inner.menu-open .menu { display: flex; }
+      .menu > li > a, .menu > li > button { width: 100%; justify-content: space-between; padding: 14px 8px; }
+      .menu .active::after { display: none; }
+      .dropdown {
+        position: static;
+        transform: none;
+        min-width: 0;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 5px;
+        margin: 0 0 8px;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+      }
+      .has-dropdown.open > .dropdown { display: block; }
+      .social-stack, .header-cta { display: none; }
+      .hero-content { width: min(100% - 30px, 850px); padding-top: 76px; }
+      .proofs { grid-template-columns: 1fr; justify-items: start; width: max-content; max-width: 100%; column-gap: 0; font-size: 22px; }
+      .hero-actions { grid-template-columns: 1fr; max-width: 470px; }
+      .services-grid { grid-template-columns: 1fr; }
+      .quote-band .section { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 620px) {
+      .hero { min-height: 780px; background-position: 43% center; }
+      .topbar-contact { gap: 8px; flex-wrap: wrap; justify-content: center; }
+      .hero-content { padding-top: 56px; }
+      .eyebrow { margin-bottom: 22px; }
+      .subhead { margin-top: 22px; }
+      .proofs { margin-top: 34px; font-size: 18px; }
+      .hero-actions { margin-top: 40px; }
+      .btn { min-height: 58px; font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="topbar">
+      <div class="topbar-inner">
+        <div>Serving Kitchener, Cambridge and Waterloo</div>
+        <div class="topbar-contact" aria-label="Contact details">
+          <span><span class="mini-icon">&#9719;</span> Mon - Sat: 7AM - 7PM</span>
+          <a href="tel:15196354645"><span class="mini-icon">&#9742;</span> 519-635-4645</a>
+          <a href="mailto:evan@rightonlandscapinginc.ca"><span class="mini-icon">&#9993;</span> evan@rightonlandscapinginc.ca</a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav-wrap" aria-label="Primary navigation">
+      <div class="nav-inner" id="navInner">
+        <a class="brand" href="#home" aria-label="Right On Landscaping Inc home"></a>
+        <ul class="menu" id="primaryMenu">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li class="has-dropdown">
+            <button type="button" data-dropdown>Services <span class="chev">&#8964;</span></button>
+            <ul class="dropdown">
+              <li><a href="#services">Sod Installation</a></li>
+              <li><a href="#services">Retaining Walls</a></li>
+              <li><a href="#services">Interlock Driveways</a></li>
+              <li><a href="#services">Interlock Patios</a></li>
+              <li><a href="#services">Interlock Walkways</a></li>
+              <li><a href="#services">Outdoor Staircases</a></li>
+              <li><a href="#services">Hardscaping</a></li>
+              <li><a href="#services">Softscaping</a></li>
+            </ul>
+          </li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li class="has-dropdown">
+            <button type="button" data-dropdown>Services areas <span class="chev">&#8964;</span></button>
+            <ul class="dropdown">
+              <li><a href="#areas">Kitchener</a></li>
+              <li><a href="#areas">Waterloo</a></li>
+              <li><a href="#areas">Cambridge</a></li>
+            </ul>
+          </li>
+          <li><a href="#quote">Contact Us</a></li>
+        </ul>
+        <div class="social-stack" aria-label="Social links">
+          <a href="#home" aria-label="Facebook">f</a>
+          <a class="insta" href="#home" aria-label="Instagram"></a>
+        </div>
+        <a class="header-cta" href="#quote">Request A Free<br />Estimate</a>
+        <button class="mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false" id="mobileToggle">&#9776;</button>
+      </div>
+    </nav>
+
+    <section class="hero-content" aria-label="Hero">
+      <p class="eyebrow">We Build and Repair</p>
+      <h1>Top-Rated Landscaping Company In Kitchener &amp; Waterloo Region</h1>
+      <p class="subhead">Premier Custom Interlock, Retaining Walls &amp; Sod Installation Services.</p>
+      <div class="proofs" aria-label="Trust highlights">
+        <div class="proof"><span class="check">&#10003;</span>Free Estimates</div>
+        <div class="proof"><span class="check">&#10003;</span>Locally Owned &amp; Operated</div>
+        <div class="proof"><span class="check">&#10003;</span>WSIB Fully Covered</div>
+        <div class="proof"><span class="check">&#10003;</span>Fully Insured</div>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#quote">Request A Free Estimate</a>
+        <a class="btn btn-outline" href="tel:15196354645">Call Now +1-519-635-4645</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="below">
+    <section class="section" id="services">
+      <h2>Comprehensive Landscaping Services</h2>
+      <p>Use this section next to build out the exact service cards from the source site. The header and hero are now clean, reusable, and no longer dependent on WordPress runtime scripts.</p>
+      <div class="services-grid">
+        <article class="service-card"><h3>Sod Installation</h3><p>Fresh, clean lawn installation for homeowners who want instant curb appeal.</p></article>
+        <article class="service-card"><h3>Retaining Walls</h3><p>Stone walls built for structure, drainage, and a premium outdoor finish.</p></article>
+        <article class="service-card"><h3>Interlock Patios</h3><p>Durable patios, walkways, and driveways designed for Ontario weather.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2>The Premier Landscaping Company in Kitchener</h2>
+      <p>This clean base can now be customized for each landscaping client without the messy exported WordPress/Nitro code.</p>
+    </section>
+
+    <section class="section" id="gallery">
+      <h2>Recent Landscaping Projects</h2>
+      <p>Gallery images will be the next section to rebuild cleanly from screenshots or selected project photos.</p>
+    </section>
+
+    <section class="section" id="areas">
+      <h2>Serving Kitchener, Waterloo, and Cambridge</h2>
+      <p>Local service-area content can be swapped for each company you sell this website to.</p>
+    </section>
+
+    <section class="quote-band" id="quote">
+      <div class="section">
+        <div>
+          <h2>Request A Free Landscaping Estimate Today</h2>
+          <p>Replace the Formspree placeholder with your real endpoint before publishing.</p>
+        </div>
+        <form class="quote-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input name="name" placeholder="Name" required />
+          <input name="email" type="email" placeholder="Email" required />
+          <input name="phone" type="tel" placeholder="Phone Number" required />
+          <textarea name="message" placeholder="Tell us about your project" required></textarea>
+          <input type="hidden" name="_subject" value="New landscaping estimate request" />
+          <button type="submit">Get a Free Estimate</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const navInner = document.getElementById('navInner');
+    const mobileToggle = document.getElementById('mobileToggle');
+    const dropdownButtons = document.querySelectorAll('[data-dropdown]');
+
+    mobileToggle.addEventListener('click', () => {
+      const open = navInner.classList.toggle('menu-open');
+      mobileToggle.setAttribute('aria-expanded', String(open));
+    });
+
+    dropdownButtons.forEach((button) => {
+      button.addEventListener('click', (event) => {
+        event.preventDefault();
+        const parent = button.closest('.has-dropdown');
+        document.querySelectorAll('.has-dropdown.open').forEach((item) => {
+          if (item !== parent) item.classList.remove('open');
+        });
+        parent.classList.toggle('open');
+      });
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!event.target.closest('.has-dropdown')) {
+        document.querySelectorAll('.has-dropdown.open').forEach((item) => item.classList.remove('open'));
+      }
+    });
+  </script>
+</body>
+</html>
