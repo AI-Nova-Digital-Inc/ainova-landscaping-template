@@ -23,3 +23,7 @@ Thumbs.db
 
 # Claude internal
 .claude/
+
+# Misc
+company-names.txt
+reponames.txt
