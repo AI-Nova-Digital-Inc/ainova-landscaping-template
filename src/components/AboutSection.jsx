@@ -12,11 +12,11 @@ export default function AboutSection() {
           <div className="relative h-[480px] lg:h-[560px]">
             {/* Main large image */}
             <div className="absolute inset-0 overflow-hidden rounded-2xl border-2 border-gold/30 shadow-luxury">
-              <Image src="/images/hero/hero-interlock-patio.png" alt="Premium interlock patio landscaping" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+              <Image src="/images/gallery/gallery-interlock-patio-01.png" alt="Premium interlock patio landscaping" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
             </div>
             {/* Bottom-right overlay image */}
             <div className="absolute -bottom-6 -right-4 h-48 w-56 overflow-hidden rounded-2xl border-2 border-gold/40 shadow-luxury lg:-right-8 lg:h-56 lg:w-64">
-              <Image src="/images/hero/hero-retaining-wall.png" alt="Premium retaining wall landscaping" fill sizes="280px" className="object-cover" />
+              <Image src="/images/gallery/gallery-retaining-wall-01.png" alt="Premium retaining wall landscaping" fill sizes="280px" className="object-cover" />
             </div>
             {/* Top-left badge */}
             <div className="absolute -left-4 top-6 rounded-2xl bg-evergreen-800 px-5 py-4 shadow-luxury lg:-left-8">
