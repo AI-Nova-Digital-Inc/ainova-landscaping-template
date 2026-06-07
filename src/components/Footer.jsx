@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         {/* Areas */}
-        <div>
+        <div id="service-areas" className="scroll-mt-28">
           <h3 className="mb-5 text-sm font-black uppercase tracking-[0.2em] text-gold">Areas We Serve</h3>
           <div className="mb-3 h-px w-8 bg-gold/40" />
           <ul className="grid gap-2.5 text-sm text-warm-white/70">
@@ -53,8 +53,9 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/8 bg-black/30 px-4 py-5">
-        <p className="text-center text-xs text-warm-white/45">© 2026 Everstone Outdoor Living. All Rights Reserved.</p>
+        <p className="text-center text-xs text-warm-white/45">&copy; 2026 Everstone Outdoor Living. All Rights Reserved.</p>
       </div>
     </footer>
   );
 }
+

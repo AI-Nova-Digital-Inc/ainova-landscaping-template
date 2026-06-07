@@ -29,7 +29,7 @@ export default function AboutSection() {
         <FadeUp delay={0.12}>
           <p className="mb-3 text-sm font-black uppercase tracking-[0.3em] text-evergreen-700">Committed to Refined Outdoor Living</p>
           <div className="mb-5 h-px w-10 bg-gold" />
-          <h2 className="font-serif text-3xl font-black leading-tight text-charcoal sm:text-4xl lg:text-5xl">
+          <h2 className="font-serif text-2xl font-black leading-tight text-charcoal sm:text-3xl lg:text-4xl">
             The Premier Landscaping Company in Kitchener-Waterloo
           </h2>
           <p className="mt-6 text-lg leading-8 text-charcoal/70">

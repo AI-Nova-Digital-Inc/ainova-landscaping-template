@@ -35,7 +35,7 @@ export default function EstimateForm() {
                 <span className="text-3xl">✓</span>
               </div>
               <h3 className="font-serif text-2xl font-black text-evergreen-800">Thank you — your request has been received.</h3>
-              <p className="mt-3 text-charcoal/65">We'll be in touch soon during business hours.</p>
+              <p className="mt-3 text-charcoal/65">We&apos;ll be in touch soon during business hours.</p>
             </div>
           ) : (
             <>
