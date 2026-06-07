@@ -20,30 +20,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Scraped/downloaded reference files
-rightonlandscapinginc.ca/
-rightonlandscapinginc.ca.zip
-cdn-ilelejd.nitrocdn.com/
-fonts.gstatic.com/
-googleads.g.doubleclick.net/
-s.w.org/
-scripts.clarity.ms/
-to.getnitropack.com/
-www.clarity.ms/
-www.google.ca/
-www.google.com/
-www.googletagmanager.com/
-_DataURI/
-legacy-resources-saver-index.html
-index.html
-.nojekyll
-docs/
-
-# Misc
-company-names.txt
-reponames.txt
-templates/
-website-ops-templates/
 
 # Claude internal
 .claude/

@@ -1,1 +1,0 @@
-Use loading='lazy' for gallery and below-the-fold images to improve performance and mobile speed.
