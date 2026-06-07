@@ -30,10 +30,10 @@ export default function SoftscapingHero() {
         className="relative z-10 mx-auto flex max-w-5xl flex-col items-center"
       >
         <span className="mb-5 rounded-full border border-gold/40 bg-gold/10 px-5 py-2 text-xs font-black uppercase tracking-[0.3em] text-gold backdrop-blur-sm">
-          Premium Planting &amp; Garden Design
+          Serving Kitchener-Waterloo &amp; Region
         </span>
-        <h1 className="font-serif text-3xl font-black leading-tight tracking-tight text-warm-white drop-shadow-lg sm:text-4xl lg:text-5xl xl:text-6xl">
-          Expert Softscaping &amp; Garden Bed Installation<br className="hidden sm:block" /> in Kitchener-Waterloo
+        <h1 className="font-serif text-3xl font-black leading-tight tracking-tight text-warm-white drop-shadow-2xl sm:text-4xl lg:text-5xl xl:text-6xl">
+          Landscapes That Look<br className="hidden sm:block" /> Like They Belong
         </h1>
         <p className="mt-6 max-w-3xl text-balance text-lg leading-8 text-warm-white/84 sm:text-xl">
           Bring your landscape to life with custom planting, privacy shrubs, garden beds, mulch, river rock, and low-maintenance plant designs built for Ontario homes.

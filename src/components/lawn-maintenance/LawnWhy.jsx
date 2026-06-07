@@ -2,9 +2,9 @@ import Image from "next/image";
 import { FadeUp } from "@/components/FadeUp";
 
 const reasons = [
-  { number: "01", title: "Consistent Sharp Results", img: "/images/lawn-maintenance/benefits/benefit-01.jpg", text: "Regular mowing, edging, and trimming keep your lawn looking crisp and well-maintained throughout the growing season." },
-  { number: "02", title: "Protects Your Investment", img: "/images/lawn-maintenance/benefits/benefit-02.jpg", text: "Proper lawn care prevents compaction, weed overgrowth, and bare patches — keeping your sod or grass healthy long-term." },
-  { number: "03", title: "Reliable, Scheduled Service", img: "/images/lawn-maintenance/benefits/benefit-03.jpg", text: "We show up on schedule so you don't have to think about it. A tidy lawn every week without lifting a finger." },
+  { title: "Consistent Sharp Results", img: "/images/lawn-maintenance/benefits/benefit-01.jpg", text: "Regular mowing, edging, and trimming keep your lawn looking crisp and well-maintained throughout the growing season." },
+  { title: "Protects Your Investment", img: "/images/lawn-maintenance/benefits/benefit-02.jpg", text: "Proper lawn care prevents compaction, weed overgrowth, and bare patches — keeping your sod or grass healthy long-term." },
+  { title: "Reliable, Scheduled Service", img: "/images/lawn-maintenance/benefits/benefit-03.jpg", text: "We show up on schedule so you don't have to think about it. A tidy lawn every week without lifting a finger." },
 ];
 
 export default function LawnWhy() {
@@ -20,13 +20,12 @@ export default function LawnWhy() {
           </div>
         </FadeUp>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {reasons.map(({ number, title, img, text }, i) => (
+          {reasons.map(({ title, img, text }, i) => (
             <FadeUp key={title} delay={i * 0.1}>
               <article className="group relative overflow-hidden rounded-3xl border border-white/10 bg-evergreen-900/30 shadow-luxury transition duration-300 hover:-translate-y-1.5 hover:border-gold/40">
                 <div className="relative h-52 overflow-hidden">
                   <Image src={img} alt={title} fill sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw" className="object-cover transition duration-700 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 to-transparent" />
-                  <span className="absolute left-5 top-5 font-serif text-4xl font-black text-gold/60">{number}</span>
                 </div>
                 <div className="p-7">
                   <h3 className="font-serif text-xl font-black text-warm-white">{title}</h3>

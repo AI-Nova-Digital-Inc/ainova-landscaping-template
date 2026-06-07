@@ -30,10 +30,10 @@ export default function RetainingHero() {
         className="relative z-10 mx-auto flex max-w-5xl flex-col items-center"
       >
         <span className="mb-5 rounded-full border border-gold/40 bg-gold/10 px-5 py-2 text-xs font-black uppercase tracking-[0.3em] text-gold backdrop-blur-sm">
-          Engineered Stone Walls &amp; Landscape Design
+          Serving Kitchener-Waterloo &amp; Region
         </span>
-        <h1 className="font-serif text-3xl font-black leading-tight tracking-tight text-warm-white drop-shadow-lg sm:text-4xl lg:text-5xl xl:text-6xl">
-          Professional Retaining Wall Construction<br className="hidden sm:block" /> in Kitchener-Waterloo
+        <h1 className="font-serif text-3xl font-black leading-tight tracking-tight text-warm-white drop-shadow-2xl sm:text-4xl lg:text-5xl xl:text-6xl">
+          Walls That Hold Ground,<br className="hidden sm:block" /> Season After Season
         </h1>
         <p className="mt-6 max-w-3xl text-balance text-lg leading-8 text-warm-white/84 sm:text-xl">
           Built-to-last stone retaining walls for sloped yards, erosion control, garden tiers, outdoor staircases, and premium curb appeal.

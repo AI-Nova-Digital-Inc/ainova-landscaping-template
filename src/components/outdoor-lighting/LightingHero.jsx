@@ -15,10 +15,10 @@ export default function LightingHero() {
         className="relative z-10 mx-auto flex max-w-5xl flex-col items-center"
       >
         <span className="mb-5 rounded-full border border-gold/40 bg-gold/10 px-5 py-2 text-xs font-black uppercase tracking-[0.3em] text-gold backdrop-blur-sm">
-          Outdoor Architectural Lighting
+          Serving Kitchener-Waterloo &amp; Region
         </span>
         <h1 className="font-serif text-3xl font-black leading-tight tracking-tight text-warm-white drop-shadow-2xl sm:text-4xl lg:text-5xl xl:text-6xl">
-          Outdoor Lighting Installation<br className="hidden sm:block" /> in Kitchener-Waterloo
+          Your Property,<br className="hidden sm:block" /> Transformed After Dark
         </h1>
         <p className="mt-6 max-w-3xl text-balance text-lg leading-8 text-warm-white/84 sm:text-xl">
           Architectural lighting that extends your outdoor living space into the evening and transforms your property after dark.

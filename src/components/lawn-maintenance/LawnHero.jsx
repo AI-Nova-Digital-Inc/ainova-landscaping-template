@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function LawnHero() {
   return (
-    <section className="relative isolate -mt-[88px] flex min-h-[80vh] items-center justify-center overflow-hidden px-4 pb-20 pt-44 text-center text-white">
-      <Image src="/images/lawn-maintenance/hero/hero-bg.jpg" alt="Lawn maintenance service Kitchener-Waterloo" fill priority sizes="100vw" className="object-cover object-center" />
+    <section className="relative isolate -mt-[88px] flex min-h-screen items-center justify-center overflow-hidden px-4 pb-20 pt-44 text-center text-white">
+      <Image src="/images/lawn-maintenance/hero/hero-bg.jpg" alt="Lawn maintenance service Kitchener-Waterloo" fill priority sizes="100vw" className="object-cover object-top" />
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/55 to-black/72" />
       <motion.div
         initial={{ opacity: 0, y: 28 }}
@@ -15,10 +15,10 @@ export default function LawnHero() {
         className="relative z-10 mx-auto flex max-w-5xl flex-col items-center"
       >
         <span className="mb-5 rounded-full border border-gold/40 bg-gold/10 px-5 py-2 text-xs font-black uppercase tracking-[0.3em] text-gold backdrop-blur-sm">
-          Professional Lawn Maintenance
+          Serving Kitchener-Waterloo &amp; Region
         </span>
         <h1 className="font-serif text-3xl font-black leading-tight tracking-tight text-warm-white drop-shadow-2xl sm:text-4xl lg:text-5xl xl:text-6xl">
-          Lawn Maintenance Services<br className="hidden sm:block" /> in Kitchener-Waterloo
+          A Flawless Lawn,<br className="hidden sm:block" /> Every Single Week
         </h1>
         <p className="mt-6 max-w-3xl text-balance text-lg leading-8 text-warm-white/84 sm:text-xl">
           Seasonal lawn care, mowing, edging, cleanup, and upkeep for a sharp, healthy exterior all year long.
