@@ -30,7 +30,7 @@ export default function SoftscapingHero() {
         className="relative z-10 mx-auto flex max-w-5xl flex-col items-center"
       >
         <span className="mb-5 rounded-full border border-gold/40 bg-gold/10 px-5 py-2 text-xs font-black uppercase tracking-[0.3em] text-gold backdrop-blur-sm">
-          Serving Kitchener-Waterloo &amp; Region
+          Softscaping &amp; Garden Design
         </span>
         <h1 className="font-serif text-3xl font-black leading-tight tracking-tight text-warm-white drop-shadow-2xl sm:text-4xl lg:text-5xl xl:text-6xl">
           Landscapes That Look<br className="hidden sm:block" /> Like They Belong
