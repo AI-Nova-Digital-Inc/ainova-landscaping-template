@@ -20,7 +20,7 @@ export default function LightingHero() {
         <p className="mb-4 text-xs font-black uppercase tracking-[0.35em] text-gold">Outdoor Architectural Lighting</p>
         <div className="mx-auto mb-6 h-px w-10 bg-gold" />
         <h1 className="font-serif text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">
-          Outdoor Lighting Installation in <span className="text-gold">Kitchener-Waterloo</span>
+          Outdoor Lighting Installation in Kitchener-Waterloo
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/80">
           Architectural lighting that extends your outdoor living space into the evening and transforms your property after dark.

@@ -20,7 +20,7 @@ export default function StaircaseHero() {
         <p className="mb-4 text-xs font-black uppercase tracking-[0.35em] text-gold">Outdoor Staircases &amp; Stone Steps</p>
         <div className="mx-auto mb-6 h-px w-10 bg-gold" />
         <h1 className="font-serif text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">
-          Outdoor Staircase Installation in <span className="text-gold">Kitchener-Waterloo</span>
+          Outdoor Staircase Installation in Kitchener-Waterloo
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/80">
           Stone steps and grade transitions that make sloped yards safer, more accessible, and more elegant year-round.

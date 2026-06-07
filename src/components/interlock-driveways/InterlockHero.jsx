@@ -35,8 +35,7 @@ export default function InterlockHero() {
         </p>
         <div className="mx-auto mb-6 h-px w-10 bg-gold" />
         <h1 className="font-serif text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">
-          Luxury Interlock Driveway Installation in{" "}
-          <span className="text-gold">Kitchener-Waterloo</span>
+          Luxury Interlock Driveway Installation in Kitchener-Waterloo
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/80">
           Premium paver driveways designed for durability, drainage, curb appeal, and long-term performance through harsh Ontario winters.

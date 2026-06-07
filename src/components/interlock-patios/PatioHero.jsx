@@ -20,7 +20,7 @@ export default function PatioHero() {
         <p className="mb-4 text-xs font-black uppercase tracking-[0.35em] text-gold">Premium Interlock Patios &amp; Outdoor Living</p>
         <div className="mx-auto mb-6 h-px w-10 bg-gold" />
         <h1 className="font-serif text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">
-          Interlock Patio Installation in <span className="text-gold">Kitchener-Waterloo</span>
+          Interlock Patio Installation in Kitchener-Waterloo
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/80">
           Custom backyard patios designed for comfort, outdoor entertaining, and long-term performance through Ontario weather.
