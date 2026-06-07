@@ -19,7 +19,7 @@ export default function EstimateForm() {
   return (
     <section id="contact" className="relative isolate overflow-hidden px-4 py-24 lg:py-32">
       <Image
-        src="/images/gallery/gallery-backyard-transformation-01.png"
+        src="/images/retaining-walls/gallery/retaining-gallery-02.jpg"
         alt="Backyard transformation landscaping"
         fill
         className="object-cover -z-20"

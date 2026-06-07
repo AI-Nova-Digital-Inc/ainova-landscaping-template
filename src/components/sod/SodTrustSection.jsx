@@ -12,13 +12,8 @@ export default function SodTrustSection() {
     <section className="bg-warm-white px-4 py-16 lg:py-24">
       <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-2 lg:gap-20">
         <FadeUp>
-          <div className="flex flex-col items-center gap-6">
-            <div className="relative h-56 w-56 overflow-hidden rounded-full border-4 border-gold/30 shadow-luxury sm:h-64 sm:w-64">
-              <Image src="/images/sod/sod-owner.png" alt="Everstone owner" fill sizes="256px" className="object-cover object-top" />
-            </div>
-            <div className="relative mt-2 h-64 w-full overflow-hidden rounded-2xl border border-gold/20 shadow-luxury sm:h-72">
-              <Image src="/images/sod/sod-backyard-premium.png" alt="Premium backyard sod installation" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
-            </div>
+          <div className="relative h-[480px] w-full overflow-hidden rounded-3xl border border-gold/20 shadow-luxury sm:h-[520px]">
+            <Image src="/images/sod/sod-backyard-premium.png" alt="Premium backyard sod installation" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
           </div>
         </FadeUp>
 

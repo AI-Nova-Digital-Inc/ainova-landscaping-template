@@ -8,18 +8,18 @@ import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 
 const images = [
-  { src: "/images/gallery/gallery-interlock-patio-01.png", category: "Interlock Patio" },
-  { src: "/images/gallery/gallery-retaining-wall-01.png", category: "Retaining Wall" },
-  { src: "/images/gallery/gallery-driveway-pavers-01.png", category: "Interlock Driveway" },
-  { src: "/images/gallery/gallery-garden-upgrade-01.png", category: "Garden Upgrade" },
-  { src: "/images/gallery/gallery-sod-installation-01.png", category: "Sod Installation" },
-  { src: "/images/gallery/gallery-outdoor-lighting-01.png", category: "Outdoor Lighting" },
-  { src: "/images/gallery/gallery-walkway-01.png", category: "Walkway" },
-  { src: "/images/gallery/gallery-backyard-transformation-01.png", category: "Backyard Transformation" },
-  { src: "/images/gallery/gallery-stone-steps-01.png", category: "Stone Steps" },
-  { src: "/images/gallery/gallery-front-yard-01.png", category: "Front Yard Landscaping" },
-  { src: "/images/gallery/gallery-lawn-maintenance-01.png", category: "Lawn Maintenance" },
-  { src: "/images/gallery/gallery-patio-evening-01.png", category: "Evening Patio" },
+  { src: "/images/interlock-patios/gallery/gallery-01.jpg", category: "Interlock Patio" },
+  { src: "/images/retaining-walls/gallery/retaining-gallery-01.jpg", category: "Retaining Wall" },
+  { src: "/images/interlock-driveways/gallery/gallery-01.jpg", category: "Interlock Driveway" },
+  { src: "/images/softscaping/gallery/softscaping-gallery-01.jpg", category: "Garden Upgrade" },
+  { src: "/images/sod/gallery/sod-gallery-01.jpg", category: "Sod Installation" },
+  { src: "/images/outdoor-lighting/gallery/gallery-01.jpg", category: "Outdoor Lighting" },
+  { src: "/images/interlock-walkways/gallery/gallery-01.jpg", category: "Walkway" },
+  { src: "/images/interlock-patios/gallery/gallery-02.jpg", category: "Backyard Transformation" },
+  { src: "/images/outdoor-staircases/gallery/gallery-01.jpg", category: "Stone Steps" },
+  { src: "/images/softscaping/gallery/softscaping-gallery-02.jpg", category: "Front Yard Landscaping" },
+  { src: "/images/lawn-maintenance/gallery/gallery-01.jpg", category: "Lawn Maintenance" },
+  { src: "/images/interlock-patios/gallery/gallery-03.jpg", category: "Evening Patio" },
 ];
 
 export default function ProjectGallery() {
