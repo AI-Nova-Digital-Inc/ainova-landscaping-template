@@ -27,3 +27,6 @@ Thumbs.db
 # Misc
 company-names.txt
 reponames.txt
+
+# Local raw data
+_local/
